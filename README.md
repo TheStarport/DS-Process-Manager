@@ -7,20 +7,25 @@ This program starts and restarts FLServer if it crashes. The program will restar
 
 ## Installation
 
-- You will need .NET 3.5 client libraries installed. If you don't have these download and install them from the Microsoft web site.
-- Configure your flhook to listen for connections. Your flhook.ini [Socket] section should look something like:
+- You will need .NET 4.8 client libraries installed. This is installed on an updated Windows 10 or Server 2022 by default. If you don't have these download and install them from the Microsoft web site.
+- Configure your FLHook to listen for connections. Your FLHook.json "socket" section should look something like:
 
 ```
-[Socket]
-Activated=yes
-Port=1919
-WPort=1920
-Pass0=test
-Rights0=superadmin
+"socket": {
+        "activated": true,
+        "ePort": 1921,
+        "eWPort": 1922,
+        "encryptionKey": "SomeRandomKey000",
+        "passRightsMap": {
+            "somepasswordhere": "superadmin"
+        },
+        "port": 1919,
+        "wPort": 1920
+    }
 ```
 - Start DSProcessManager. Click on the "Settings" button.
 - Under EXE options, set the path to your FLServer.exe by clicking the browse button.
-- Under FLSettings, enter the "Port" and Password "Pass0" parameters. 
+- Under FLSettings, enter the "port" and password from the "passRightsMap".
 - If FLServer is not already running, the program will automatically start FLServer.
 - DSPM will attempt to connect to flhook and you will see an entry like "18/11/2009 12:09:56 a.m.:Server is running: connected to flhook". If you do not see this then the program will automatically restart the server after 15 minutes and you likely have a configuration problem with either FLHook, the port or password.
 - If you minimise the process manager then it will minimise to the task bar notification area. If an entry is added to the log, i.e. the server is restarted then the window is automatically opened.

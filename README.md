@@ -44,8 +44,8 @@ Report bugs by raising an issue on this repo.
 
 ## Change History
 
-1.6: First public release
-1.7: Fixed bug that caused the program to use a lot of CPU when the connection to FLHook breaks and re-established.
-2.0: Rewrote the socket stuff so that it actually works.
-2.2: Background threads terminate properly now.
-2024: Ported to GitHub due to the Forge being down.
+- 1.6: First public release
+- 1.7: Fixed bug that caused the program to use a lot of CPU when the connection to FLHook breaks and re-established.
+- 2.0: Rewrote the socket stuff so that it actually works.
+- 2.2: Background threads terminate properly now.
+- 2024: Ported to GitHub due to the Forge being down.

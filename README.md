@@ -32,7 +32,7 @@ This program starts and restarts FLServer if it crashes. The program will restar
 
 ## Automatic scripts used for backups
 
-This program can run two scripts at a specified time each day. This can be used to implement an automatic backups. It can also run a command when FLServer is restarted. See the backup.bat, backup_inc.bat and restart.bat scripts for examples. These scripts use ncftp and 7zip to
+This program can run two scripts at a specified time each day. This can be used to implement an automatic backups. It can also run a command when FLServer is restarted.
 
 ## Source
 

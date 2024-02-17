@@ -12,16 +12,16 @@ This program starts and restarts FLServer if it crashes. The program will restar
 
 ```
 "socket": {
-        "activated": true,
-        "ePort": 1921,
-        "eWPort": 1922,
-        "encryptionKey": "SomeRandomKey000",
-        "passRightsMap": {
-            "somepasswordhere": "superadmin"
-        },
-        "port": 1919,
-        "wPort": 1920
-    }
+	"activated": true,
+	"ePort": 1921,
+	"eWPort": 1922,
+	"encryptionKey": "SomeRandomKey000",
+	"passRightsMap": {
+		"somepasswordhere": "superadmin"
+	},
+	"port": 1919,
+	"wPort": 1920
+}
 ```
 - Start DSProcessManager. Click on the "Settings" button.
 - Under EXE options, set the path to your FLServer.exe by clicking the browse button.

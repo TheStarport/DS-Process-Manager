@@ -1,0 +1,90 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DSProcessManager" GeneratedClassName="AppSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="setFlEXE" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\Microsoft Games\Freelancer\EXE\FLServer.exe</Value>
+    </Setting>
+    <Setting Name="setRestartTime" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8</Value>
+    </Setting>
+    <Setting Name="setRestartMaxLoad" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="setRestartMaxMemory" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1200</Value>
+    </Setting>
+    <Setting Name="setFLHookPort" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">1919</Value>
+    </Setting>
+    <Setting Name="setFLHookPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">test</Value>
+    </Setting>
+    <Setting Name="setStartupMaxReplyTime" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">900</Value>
+    </Setting>
+    <Setting Name="setFLHookIP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">127.0.0.1</Value>
+    </Setting>
+    <Setting Name="setDailyRestart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="setDailyRestartWarning10min" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Notice to Space Farers : Long range probes indicates approaching ION storms in 10 minutes.</Value>
+    </Setting>
+    <Setting Name="setDailyRestartWarning5min" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Sirius Meteorological Institute, Late Warning department leader, The Right Honourable Fellow Hoodlum, Esq., confirms approaching ION storm will reach Sirius in 5 minutes. Proceed to nearest docking facility at best speed. </Value>
+    </Setting>
+    <Setting Name="setDailyRestartWarning1min" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Outer rim Sirius research stations reports ION storms will hit in 1 minute. All vessels are advised to dock now. Expected duration of system wide darkening to be 12 minutes.</Value>
+    </Setting>
+    <Setting Name="setDailyExtCmd1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\backup.bat</Value>
+    </Setting>
+    <Setting Name="setDailyExtCmd2" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="setDailyExtCmd1Time" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="setDailyExtCmd2Time" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">7</Value>
+    </Setting>
+    <Setting Name="setFLExeArgs" Type="System.String" Scope="User">
+      <Value Profile="(Default)">/c /p2302</Value>
+    </Setting>
+    <Setting Name="setFLHookUnicode" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setMainLogPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\Microsoft Games\Freelancer\EXE\flhook_logs\events.log</Value>
+    </Setting>
+    <Setting Name="setBeforeRestartExtCmd" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\restart.bat</Value>
+    </Setting>
+    <Setting Name="setLogHighNetTrafficLimit" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="setGraphUpdateRate" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">5</Value>
+    </Setting>
+    <Setting Name="setBlockHighNetTraffic" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setGameLogPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Program Files\Microsoft Games\Freelancer\EXE\flhook_logs\chats.log</Value>
+    </Setting>
+    <Setting Name="setNetLowPort" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">2302</Value>
+    </Setting>
+    <Setting Name="setNetHighPort" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">2304</Value>
+    </Setting>
+    <Setting Name="setEnableNetMonitor" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="setDebug" Type="System.Decimal" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

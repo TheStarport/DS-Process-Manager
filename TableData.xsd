@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="TableData" targetNamespace="http://tempuri.org/TableData.xsd" xmlns:mstns="http://tempuri.org/TableData.xsd" xmlns="http://tempuri.org/TableData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="TableData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_DataSetName="TableData" msprop:Generator_UserDSName="TableData" msprop:EnableTableAdapterManager="true">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="NetworkInfo" msprop:Generator_UserTableName="NetworkInfo" msprop:Generator_RowDeletedName="NetworkInfoRowDeleted" msprop:Generator_TableClassName="NetworkInfoDataTable" msprop:Generator_RowChangedName="NetworkInfoRowChanged" msprop:Generator_RowClassName="NetworkInfoRow" msprop:Generator_RowChangingName="NetworkInfoRowChanging" msprop:Generator_RowEvArgName="NetworkInfoRowChangeEvent" msprop:Generator_RowEvHandlerName="NetworkInfoRowChangeEventHandler" msprop:Generator_TablePropName="NetworkInfo" msprop:Generator_TableVarName="tableNetworkInfo" msprop:Generator_RowDeletingName="NetworkInfoRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ColIP" msdata:DataType="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="ColIP" msprop:Generator_ColumnPropNameInRow="ColIP" msprop:Generator_ColumnVarNameInTable="columnColIP" msprop:Generator_ColumnPropNameInTable="ColIPColumn" type="xs:anyType" />
+              <xs:element name="ColInNow" msprop:Generator_UserColumnName="ColInNow" msprop:Generator_ColumnPropNameInRow="ColInNow" msprop:Generator_ColumnVarNameInTable="columnColInNow" msprop:Generator_ColumnPropNameInTable="ColInNowColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="ColIn10Min" msprop:Generator_UserColumnName="ColIn10Min" msprop:Generator_ColumnPropNameInRow="ColIn10Min" msprop:Generator_ColumnVarNameInTable="columnColIn10Min" msprop:Generator_ColumnPropNameInTable="ColIn10MinColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="ColOutNow" msprop:Generator_UserColumnName="ColOutNow" msprop:Generator_ColumnPropNameInRow="ColOutNow" msprop:Generator_ColumnVarNameInTable="columnColOutNow" msprop:Generator_ColumnPropNameInTable="ColOutNowColumn" type="xs:double" minOccurs="0" />
+              <xs:element name="ColOut10Min" msprop:Generator_UserColumnName="ColOut10Min" msprop:Generator_ColumnPropNameInRow="ColOut10Min" msprop:Generator_ColumnVarNameInTable="columnColOut10Min" msprop:Generator_ColumnPropNameInTable="ColOut10MinColumn" type="xs:double" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="PlayerInfo" msprop:Generator_UserTableName="PlayerInfo" msprop:Generator_RowDeletedName="PlayerInfoRowDeleted" msprop:Generator_TableClassName="PlayerInfoDataTable" msprop:Generator_RowChangedName="PlayerInfoRowChanged" msprop:Generator_RowClassName="PlayerInfoRow" msprop:Generator_RowChangingName="PlayerInfoRowChanging" msprop:Generator_RowEvArgName="PlayerInfoRowChangeEvent" msprop:Generator_RowEvHandlerName="PlayerInfoRowChangeEventHandler" msprop:Generator_TablePropName="PlayerInfo" msprop:Generator_TableVarName="tablePlayerInfo" msprop:Generator_RowDeletingName="PlayerInfoRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ColID" msprop:Generator_UserColumnName="ColID" msprop:Generator_ColumnPropNameInRow="ColID" msprop:Generator_ColumnVarNameInTable="columnColID" msprop:Generator_ColumnPropNameInTable="ColIDColumn" type="xs:int" />
+              <xs:element name="ColCharname" msprop:Generator_UserColumnName="ColCharname" msprop:Generator_ColumnPropNameInRow="ColCharname" msprop:Generator_ColumnVarNameInTable="columnColCharname" msprop:Generator_ColumnPropNameInTable="ColCharnameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ColIP" msdata:DataType="System.Object, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" msprop:Generator_UserColumnName="ColIP" msprop:Generator_ColumnPropNameInRow="ColIP" msprop:Generator_ColumnVarNameInTable="columnColIP" msprop:Generator_ColumnPropNameInTable="ColIPColumn" type="xs:anyType" minOccurs="0" />
+              <xs:element name="ColPing" msprop:Generator_UserColumnName="ColPing" msprop:Generator_ColumnPropNameInRow="ColPing" msprop:Generator_ColumnVarNameInTable="columnColPing" msprop:Generator_ColumnPropNameInTable="ColPingColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ColSystem" msprop:Generator_UserColumnName="ColSystem" msprop:Generator_ColumnPropNameInRow="ColSystem" msprop:Generator_ColumnVarNameInTable="columnColSystem" msprop:Generator_ColumnPropNameInTable="ColSystemColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:NetworkInfo" />
+      <xs:field xpath="mstns:ColIP" />
+    </xs:unique>
+    <xs:unique name="PlayerInfo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:PlayerInfo" />
+      <xs:field xpath="mstns:ColID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
